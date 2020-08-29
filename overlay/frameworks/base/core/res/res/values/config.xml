@@ -1209,4 +1209,11 @@
 
     <!-- Flag indicating whether the surface flinger has limited alpha compositing functionality in hardware. If set, the window manager will disable alpha trasformation in animations where not strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
+    
+    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
+    <dimen name="rounded_corner_radius_adjustment">19px</dimen>
+    
+    <!-- True if the firmware supports p2p MAC randomization -->
+    <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
+
 </resources>
