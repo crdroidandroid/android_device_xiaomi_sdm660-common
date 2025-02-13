@@ -391,7 +391,7 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service
 
 # VNDK
-PRODUCT_COPY_FILES += \
+PRODUCT_PACKAGES += \
     libutils-v33
 
 # Wifi
